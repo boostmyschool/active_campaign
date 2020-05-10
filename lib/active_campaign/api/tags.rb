@@ -16,7 +16,7 @@ module ActiveCampaign
       # @return [Hash] a hash with information about the list of tags
       #
       def show_tags(search = nil)
-        post('tags', search: search)
+        get('tags', search: search)
       end
     end
   end
