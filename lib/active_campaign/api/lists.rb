@@ -52,7 +52,7 @@ module ActiveCampaign
       #
       # @param [String] search Filter lists that match the given value in the list attributes
       #
-      # @return [Array<Hash>]
+      # @return [Hash] a hash with information about the list of lists
       #
       def show_lists(search = nil)
         get('lists', search: search)
