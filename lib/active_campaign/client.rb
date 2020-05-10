@@ -17,6 +17,7 @@ module ActiveCampaign
     endpoint :addresses
     endpoint :groups
     endpoint :lists
+    endpoint :tags
     endpoint :users
 
     attr_reader :config
